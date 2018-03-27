@@ -1,0 +1,21 @@
+<div class="container card" *ngIf="hero">
+  <h2>
+    heroes works! {{hero.name}}
+  </h2>
+
+  <div>
+    <span>ID:</span>
+    {{hero.id}}
+  </div>
+
+  <div>
+    <span>Nome:</span>
+    {{hero.name}}
+  </div>
+
+  <div>
+    <label>Nome:</label>
+    <input [(ngModel)]="hero.name" />
+  </div>
+  
+</div>
